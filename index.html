@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Form</title>
+</head>
+<body style="background-color: lavender; font-family:Georgia, 'Times New Roman', Times, serif;">
+    <nav style="text-align: left;">
+        <a href="#welcome">Welcome</a>
+        <a href="#order">Order Flowers</a>
+        <a href="#inspire">Need Inspiration?</a>
+    </nav>
+    <h1>Flower Shop</h1>
+    <h3  id="welcome">Welcome! We're so glad you're here!</h3>
+    <p>Convallaria ranunculus aranthera eurphorbia leucospermum anemone lilium leucospermum lupinus ranunculus eucharis arachnis! Nerine solidago genista callistephus! Parthenium narcissus celosia eustoma. Leucadendron. Heliconia carthamus nigella solidago zantedeschia lysimachia. Liatris dendrobium euphorbia spirea gloriosa.
+
+        Astrantia. Oenothera aster veronica scabiosa. Nerine eremurus consolida aquilegia veronica eryngiumm. Anigozanthos arachnis astrantia aster spirea genista barbatus muscari. Helianthus astilbe eryngiumm.
+        
+        Tanacetum cirsium chelone nigella helenium chelone gypsophila echinops cattleya crocosmia. Nerine chelone liatris campanula heliconia vulgare leucadendron artemesia lupinus callistephus polianthes ammi acacia! Eryngium antirrhinum lavandula oncidium chelone helianthus. Hellebore, gerbera barbatus artemesia ammi delphinium cirsium alstroemeria oncidium trachelium symphoricarpos? Agapanthus limonium antirrhinum prunus aster moluccella</p>
+    <div>
+        
+        <form>
+            <fieldset>
+                <h3 id="order">Order Flowers</h3>
+                <p><label for="name">Name: <input type="text"/></label></p>
+                <p><label for="budget">Budget: <input type="number"></label></p>
+                <p>Colors, Style, Types of Flowers: <textarea rows="4"></textarea></p>
+            
+            <hr/>
+            
+                <p><input type="radio" name="pu-or-del" id="pick-up" value="pick-up"><label>Pick-up at the shop</label></p>
+                <p><input type="radio" name="pu-or-del" id="delivery" value="delivery"><label>Local delivery</label></p>
+                <p><label for="time">Pick-up/Delivery Time: </label><input id="time" name="time" type="time" min="10:00" max="18:00"></p>
+            <hr/>
+                <p>Card Message: <textarea rows="4"></textarea></p>
+                
+            </fieldset>            
+        </form>
+    </div>
+    <div>
+        <h3 id="inspire">Need Inspiration?</h3>
+        <iframe src="https://www.youtube.com/embed/jiwSvZ8Nvlo" frameborder="0" width="560" height="315" allowfullscreen></iframe>
+    </div>
+    <br/>
+    <footer style="background-color: lightgrey; display: flex;">Copyright (c) 2022 JMC</footer>
+</body>
+</html>
